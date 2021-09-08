@@ -22,22 +22,22 @@ function SideNavBar() {
                   Dashboard
                 </Link>
               </li>
-              <li>
+              <li className="row">
                 <TuneOutlinedIcon />
                 <Link to="/Configuration">Configuration</Link>
               </li>
-              <li>
+              <li className="row">
                 <LiveHelpOutlinedIcon />
                 <Link to="/Help">Help</Link>
               </li>
-              <li>
+              <li className="row">
                 <SettingsOutlinedIcon />
                 <Link to="/Settings">Settings</Link>
               </li>
             </ul>
           </nav>
 
-          <Switch className="col-xl-7 main-disp">
+          <Switch className="col-md-7 main-disp">
             <Route exact path="/">
               <DashBoard />
             </Route>

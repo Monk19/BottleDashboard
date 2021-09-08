@@ -3,7 +3,7 @@ import "./DashBoard.modules.css";
 function DashBoard() {
   return (
     <div>
-      <div className="filter-board">
+      <div className="filter-board container">
         <div className="filter-by-date">
           <label htmlFor="From">
             From
