@@ -1,0 +1,7 @@
+.filter-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #000000;
+  width: 100%;
+}
