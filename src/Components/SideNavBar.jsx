@@ -19,6 +19,12 @@ function SideNavBar() {
   return (
     <>
       <Router>
+        <div className="sidbar-toggle">
+          <HorizontalSplitIcon
+            className="activate-Sidebar"
+            onClick={sideBarHandeler}
+          />
+        </div>
         <div className="nav-disp">
           {sideBarActive ? (
             <nav className="Side-bar-overlay" onClick={sideBarHandeler}>
@@ -49,12 +55,7 @@ function SideNavBar() {
           ) : (
             ""
           )}
-          <div className="sidbar-toggle">
-            <HorizontalSplitIcon
-              className="activate-Sidebar"
-              onClick={sideBarHandeler}
-            />
-          </div>
+
           <Switch className="col-md-7 main-disp">
             <div>
               <Route exact path="/">

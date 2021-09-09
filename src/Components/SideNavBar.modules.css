@@ -17,6 +17,7 @@ ul.sidebar-list > li {
 .sidbar-toggle > svg {
   position: absolute;
   font-size: 3vw;
+  top: 0px;
 }
 
 ul > li {
