@@ -5,9 +5,10 @@ ul.sidebar-list > li {
 }
 .nav-disp {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
 .Side-bar-overlay {
-  position: absolute;
   z-index: 100;
   background-color: rgb(61, 59, 55);
   height: 100vh;
@@ -29,7 +30,7 @@ a {
   font-weight: bold;
 }
 svg {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 .main-disp {
   height: 100vh;

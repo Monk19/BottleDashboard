@@ -56,18 +56,20 @@ function SideNavBar() {
             />
           </div>
           <Switch className="col-md-7 main-disp">
-            <Route exact path="/">
-              <DashBoard />
-            </Route>
-            <Route exact path="/Configuration">
-              <Configuration />
-            </Route>
-            <Route exact path="/Help">
-              <Help />
-            </Route>
-            <Route exact path="/Settings">
-              <DashBoard />
-            </Route>
+            <div>
+              <Route exact path="/">
+                <DashBoard />
+              </Route>
+              <Route exact path="/Configuration">
+                <Configuration />
+              </Route>
+              <Route exact path="/Help">
+                <Help />
+              </Route>
+              <Route exact path="/Settings">
+                <DashBoard />
+              </Route>
+            </div>
           </Switch>
         </div>
       </Router>
