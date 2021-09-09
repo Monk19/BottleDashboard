@@ -2,7 +2,7 @@ import React from "react";
 import "./DashBoard.modules.css";
 function DashBoard() {
   return (
-    <div>
+    <div className="dashboard">
       <div className="filter-board container">
         <div className="filter-by-date">
           <label htmlFor="From">
@@ -10,7 +10,7 @@ function DashBoard() {
             <input type="date"></input>
           </label>
           <label htmlFor="From">
-            From
+            To
             <input type="date"></input>
           </label>
           <button>Go</button>
